@@ -1,0 +1,16 @@
+authorName: default
+experimentName: ours_tune
+trialConcurrency: 1
+maxExecDuration: 1h
+maxTrialNum: 10
+trainingServicePlatform: local
+# 搜索空间文件路径
+searchSpacePath: search_space.json
+useAnnotation: false
+tuner:
+  builtinTunerName: TPE
+# 运行的命令，以及 Trial 代码的路径
+trial:
+  command: python3 main.py
+  codeDir: .
+  gpuNum: 0

@@ -1,0 +1,11 @@
+{"batch_size":{"_type":"choice", "_value":[500]}, 
+"dataset": {"_type":"choice", "_value":["Douban_Book_split"]}, 
+"diffuse":{"_type":"choice", "_value":[2]}, 
+"dropout":{"_type":"choice", "_value":[0.3]}, 
+"embed_size":{"_type":"choice", "_value":[128]}, 
+"epochs":{"_type":"choice", "_value":[10]}, 
+"model_type":{"_type":"choice", "_value":["Ours"]}, 
+"seed":{"_type":"choice", "_value":[1234]}, 
+"size_neighbors":{"_type":"choice", "_value":[50]}, 
+"wd":{"_type":"choice", "_value":[0.0005]}
+}

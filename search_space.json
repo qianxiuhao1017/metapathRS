@@ -1,0 +1,7 @@
+{
+"hidden_edge_dimen":{"_type":"choice", "_value":[8, 16]},
+"l2_weight":{"_type":"uniform", "_value":[0.0001, 0.01]}, 
+"lr":{"_type":"choice", "_value":[0.0001, 0.0004, 0.001, 0.004, 0.01]}, 
+"margin":{"_type":"uniform", "_value":[0.01, 0.2]}
+}
+
